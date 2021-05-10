@@ -46,16 +46,18 @@
 	
 	<!-- 간단한 테스트1 -->
 	bean 1 : <%=bean1.getPdNm() %> <hr>
-	bean 2 : <%=bean2.getPdNm() %>, <jsp:getProperty property="pdNm" name="bean2" /> <hr>
-	bean 3 : <%=bean3.getPdNm() %>, <jsp:getProperty property="pdNm" name="bean3" /> <hr>
+	bean 2 : <%=bean2.getPdNm() %> , <jsp:getProperty property="pdNm" name="bean2" /> <hr>
+	bean 3 : <%=bean3.getPdNm() %> , <jsp:getProperty property="pdNm" name="bean3" /> <hr>
 	
-	<!-- 간단한 테스트 2 -->
+	<!-- 간단한 테스트2 -->
 	<% 
 		TesterBean obj = new TesterBean();
 		obj.showData(bean1);
 		obj.showData(bean2);
 		obj.showData(bean3);
 	%>
+	
+
 </body>
 </html>
 
