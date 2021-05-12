@@ -55,12 +55,16 @@
 	<p>${ num1 }</p>
 	<p>${ num2 }</p>
 	
+	<hr>
+	
 	<h2>산술 연산자</h2>
 	<p>${ num1 + num2 }</p>
 	<p>${ num1 - num2 }</p>
 	<p>${ num1 * num2 }</p>
-	<p>${ num1 / num2 }</p>
-	<p>${ num1 % num2 }</p>
+	<p>${ num1 / num2 } , ${num1 div num2 }</p>
+	<p>${ num1 % num2 } , ${num1 mod num2 }</p>
+	
+	<hr>
 	
 	<h2>관계 연산자</h2> 
 	
@@ -82,6 +86,17 @@
 	<p>${ num1 <= num2 }, ${ num1 le num2 }</p>
 	<p>${ num1 == num2 }, ${ num1 eq num2 }</p>
 	<p>${ num1 != num2 }, ${ num1 ne num2 }</p>
+	
+	<hr>
+	
+	<h2>논리 연산자</h2> 
+	
+	<p>${ 1 == 1 && 1 == 1 }, ${ 1 == 1 and 1 == 1 }</p>
+	<p>${ 1 == 1 || 1 == 1 }, ${ 1 == 1 or 1 == 1 }</p>
+	<p>${ !(1 == 1) }       , ${ not(1 == 1) }</p>
+	
+	
+	
 	
 </body>
 </html>
